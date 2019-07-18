@@ -1,3 +1,5 @@
 def square_array(array)
-array.each{|n| puts n**2}
+  new_array=[]
+array.each{|n| puts new_array.push(n**2)}
+returns new_array
 end
